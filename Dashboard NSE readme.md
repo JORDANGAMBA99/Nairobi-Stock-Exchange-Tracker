@@ -6,13 +6,15 @@ I wanted to Visualise the Trade Volume,Trade Value and the Total Trades that too
 I found that the best visualisation chart to use was a bar graph to that had an accurately depiction of TradeVolume,TradeValue and Total Trades
 
 ### Traded Volume,Traded Value and Total Trades For Egyptian companies
-![Excel Visualisation for NSE] (Traded volume for Egyptian Companies.jpg)
 
-![TradedVolumeVisualisation]](<Traded Volume for Egyptian Companies-2.jpg>)
+<h1>Traded Volume</h1>
+<img src-"Traded Volume for Egyptian Companies.jpg">
 
-![TradedValueVisualisation](<Trade Value for Egyptian Companies in NSE-1.jpg>)
+<h1>Trade Value</h1>
+<img src-"Traded Value for Egyptian Companies.jpg")
 
-![TotalTradesVisualisation](<Total Trades per Company for Egyptian companies in NSE-1.jpg>)
+<h1>Total Trades</h1>
+<img src-"Total Trades per Company for Egyptian companies in NSE.jpg">
 
 The companies that had the best valuation were the Egyptian companies:
  -AIFI - Atlas For Investment and Food Industries
