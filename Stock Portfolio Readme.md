@@ -36,7 +36,7 @@
 ``` function myPortfolio(tickers,values) {
    var total = []
    var sums = {}
-```
+
    for(i=0;i<tickers.length;i++){
 
     var t = tickers[i].toString()
@@ -58,7 +58,7 @@
    }
    return total
 }
-
+```
 
 The link is here of the original file https://docs.google.com/spreadsheets/d/1KUI7x8sMYRl4bnAgojX6avk4fiUIWjTHgVWrQxNh-ik/edit#gid=0
 Also for the code https://script.google.com/u/0/home/projects/1qNJvnnKzKNj9auzyfn8pHUM1GslChBvXLOThJ75wu5M_6jTdYeRmahzZ/edit
