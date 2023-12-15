@@ -5,8 +5,8 @@
 * I used the following formulas:
 
 ### Positions Tab:
-* 🔸MyPortfolio: =MyPortfolio(History!B3:B1001,History!D3:D1001)
-*🔸Purchase:=if(isblank(A3),"",AVERAGE.WEIGHTED(FILTER(History!E:E,History!B:B=A3,History!D:D▶0),FILTER(History!D:D,History!B:B=A3,History!D:D▶0)))
+* 🔸MyPortfolio: =MyPortfolio(History!B3:B1001,History!D3:D1001)    
+* Purchase:=if(isblank(A3),"",AVERAGE.WEIGHTED(FILTER(History!E:E,History!B:B=A3,History!D:D▶0),FILTER(History!D:D,History!B:B=A3,History!D:D▶0)))
 * 🔸Price: =if(ISBLANK(A3),"",GOOGLEFINANCE(A3,"Price"))
 * 🔸Change%: =if(ISBLANK(A3),"",GOOGLEFINANCE(A3,"changepct")/100)
 * 🔸Change$: =if(ISBLANK(A3),"",GOOGLEFINANCE(A3,"change")*B3)
@@ -14,7 +14,7 @@
 * 🔸Value: =if(ISBLANK(A3),"",D3*B3)
 * 🔸Gain%: =if(isblank(A3),"",(D3-C3)/C3)
 * 🔸Gain$: =if(ISBLANK(A3),"",H3-G3)
-
+      
 ### Dashboard Tab:
 * 🔸 Account Value: =B3+B4
 * 🔸 Positions: =SUM(Positions!H3:H30)
