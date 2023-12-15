@@ -1,4 +1,4 @@
-# Dynamic Stock Portfoio:
+# Dynamic Stock Portfolio:
 
 * I wanted to create an online Stock Portfolio that is dynamic to the changes appearing in the stock market daily.
 * I therefore decided to use google sheets to make it dynamic as possible.
