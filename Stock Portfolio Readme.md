@@ -33,10 +33,10 @@
 
 #### I also used the following code using script editor:
 
-''' function myPortfolio(tickers,values) {
+``` function myPortfolio(tickers,values) {
    var total = []
    var sums = {}
-'''
+```
    for(i=0;i<tickers.length;i++){
 
     var t = tickers[i].toString()
