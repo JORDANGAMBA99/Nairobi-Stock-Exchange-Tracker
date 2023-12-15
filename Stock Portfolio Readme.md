@@ -1,8 +1,10 @@
+# Dynamic Stock Portfoio 
 I wanted to create an online Stock Portfolio that is dynamic to the changes appearing in the stock market daily
 I therefore decided to use google sheets to make it dynamic as possible
 I used the following formulas:
-Positions Tab:
-🔸MyPortfolio: =MyPortfolio(History!B3:B1001,History!D3:D1001)
+
+### Positions Tab:
+* 🔸MyPortfolio: =MyPortfolio(History!B3:B1001,History!D3:D1001)
 🔸Purchase: =if(isblank(A3),"",AVERAGE.WEIGHTED(FILTER(History!E:E,History!B:B=A3,History!D:D▶0),FILTER(History!D:D,History!B:B=A3,History!D:D▶0)))
 🔸Price: =if(ISBLANK(A3),"",GOOGLEFINANCE(A3,"Price"))
 🔸Change%: =if(ISBLANK(A3),"",GOOGLEFINANCE(A3,"changepct")/100)
