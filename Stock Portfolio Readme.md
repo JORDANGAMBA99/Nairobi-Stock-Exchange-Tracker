@@ -15,7 +15,7 @@
 * 🔸Gain%: =if(isblank(A3),"",(D3-C3)/C3)
 * 🔸Gain$: =if(ISBLANK(A3),"",H3-G3)
 
-###Dashboard Tab:
+### Dashboard Tab:
 * 🔸 Account Value: =B3+B4
 * 🔸 Positions: =SUM(Positions!H3:H30)
 * 🔸 Cash: =sumif(History!C:C,"Deposit",History!F:F)-sumif(History!C:C,"Withdrawal",History!F:F)+sumif(History!C:C,"Sell",History!F:F)-sumif(History!C:C,"Buy",History!F:F)
